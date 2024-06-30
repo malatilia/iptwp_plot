@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="pdml2html.xsl"?>
+<!-- You can find pdml2html.xsl at https://gitlab.com/wireshark/wireshark/-/raw/master/pdml2html.xsl. -->
+<pdml version="0" creator="wireshark/3.6.20" time="" capture_file="">
+<packet>
+  <proto name="iptwp" showname="IP Train Wire Protocol" size="" pos="">
+    <proto name="iptwp_process_data" showname="IPTWP_PROCESS_DATA(version:2.0.0.0)" size="" pos="">
+      <field name="_ws.lua.text" showname="IPTWP Header" size="" pos="" show="" value="">
+        <field name="iptwp.pd.timestamp_in_microsecond" showname="timestamp_in_microsecond                                     : 265916722" size="4" pos="" show="265916722" value="0fd99132"/>
+      </field>
+      <field name="_ws.lua.text" showname="" size="" pos="" show="" value="">
+        <field name="iptwp.pd.ProcessVariableName" showname="                                      " size="" pos="" show="" value="">
+          <field name="iptwp.pd.ProcessVariableValue.UINT16" showname="Signal1 (Type = UINT16)                                 : 0x847[2119]" size="" pos="" show="0x0847" value="0847"/>
+          <field name="iptwp.pd.ProcessVariableValue.UINT8" showname="Signal2 (Type = UINT8)                                 : 0x5[5]" size="" pos="" show="0x05" value="05"/>
+		  <field name="iptwp.pd.ProcessVariableValue.BOOLEAN8" showname="Signal3 (Type = BOOLEAN8)                           : 0x0[FALSE]" size="" pos="" show="0" value="00"/>
+        </field>
+      </field>
+    </proto>
+  </proto>
+</packet>
+
+<packet>
+  <proto name="iptwp" showname="IP Train Wire Protocol" size="" pos="">
+    <proto name="iptwp_process_data" showname="IPTWP_PROCESS_DATA(version:2.0.0.0)" size="" pos="">
+      <field name="_ws.lua.text" showname="IPTWP Header" size="" pos="" show="" value="">
+        <field name="iptwp.pd.timestamp_in_microsecond" showname="timestamp_in_microsecond                                     : 265916922" size="4" pos="" show="265916922" value="0fd991fa"/>
+      </field>
+      <field name="_ws.lua.text" showname="" size="" pos="" show="" value="">
+        <field name="iptwp.pd.ProcessVariableName" showname="                                      " size="" pos="" show="" value="">
+          <field name="iptwp.pd.ProcessVariableValue.UINT16" showname="Signal1 (Type = UINT16)                                 : 0x848[2120]" size="" pos="" show="0x0848" value="0847"/>
+          <field name="iptwp.pd.ProcessVariableValue.UINT8" showname="Signal2 (Type = UINT8)                                 : 0x4[4]" size="" pos="" show="0x04" value="04"/>
+		  <field name="iptwp.pd.ProcessVariableValue.BOOLEAN8" showname="Signal3 (Type = BOOLEAN8)                           : 0x1[TRUE]" size="" pos="" show="1" value="01"/>
+        </field>
+      </field>
+    </proto>
+  </proto>
+</packet>
+
+<packet>
+  <proto name="iptwp" showname="IP Train Wire Protocol" size="" pos="">
+    <proto name="iptwp_process_data" showname="IPTWP_PROCESS_DATA(version:2.0.0.0)" size="" pos="">
+      <field name="_ws.lua.text" showname="IPTWP Header" size="" pos="" show="" value="">
+        <field name="iptwp.pd.timestamp_in_microsecond" showname="timestamp_in_microsecond                                     : 265917122" size="4" pos="" show="265917122" value="0fd992c2"/>
+      </field>
+      <field name="_ws.lua.text" showname="" size="" pos="" show="" value="">
+        <field name="iptwp.pd.ProcessVariableName" showname="                                      " size="" pos="" show="" value="">
+          <field name="iptwp.pd.ProcessVariableValue.UINT16" showname="Signal1 (Type = UINT16)                                 : 0x849[2121]" size="" pos="" show="0x0849" value="0849"/>
+          <field name="iptwp.pd.ProcessVariableValue.UINT8" showname="Signal2 (Type = UINT8)                                 : 0x3[3]" size="" pos="" show="0x03" value="03"/>
+		  <field name="iptwp.pd.ProcessVariableValue.BOOLEAN8" showname="Signal3 (Type = BOOLEAN8)                           : 0x0[FALSE]" size="" pos="" show="0" value="00"/>
+        </field>
+      </field>
+    </proto>
+  </proto>
+</packet>
+</pdml>
